@@ -1,2 +1,1 @@
 streamlit_lottie==0.0.5
-
