@@ -1,1 +1,6 @@
-streamlit_lottie==0.0.5
+pandas
+numpy
+altair
+streamlit
+streamlit_lottie
+Pillow
