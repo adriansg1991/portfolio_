@@ -1,7 +1,2 @@
-pandas
-numpy
-altair
-streamlit
-streamlit_lottie
-requests
-Pillow
+streamlit_lottie==0.0.5
+
