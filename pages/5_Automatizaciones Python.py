@@ -4,7 +4,7 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 
 
-st.title("Automatizaciones Dpto. Financiero/contable")
+st.title(":gray[Automatizaciones Dpto. Financiero/contable]")
 #st.sidebar.success("Select a page above")
 
 
@@ -25,8 +25,8 @@ Este es el principal motivo por el cual empecé a programar con Python.
    
 with st.container():
     st.write("---")
-    st.header(":blue[**Automatización 1**]", divider='rainbow')
-    st.subheader("**1. Informe de productos mensual**")
+    st.header(":gray[**Automatización 1**]", divider='red')
+    st.subheader(":blue[**Informe de productos mensual**]")
     st.write(
             """
             En esta empresa, además de la producción dental, también comercializa sus propios productos. Estos productos tienen varios años en el mercado, e incluso algunos son novedades. Por lo tanto, es esencial monitorear sus ventas entre los diversos laboratorios.
@@ -39,13 +39,13 @@ Además, estas ventas están relacionadas con acuerdos previos con los expropiet
 
     
         )
-    st.subheader("1.1 ¿Cómo se hacia este informe manualmente?")
+    st.subheader(":blue[¿Cómo se hacia este informe manualmente?]")
     st.write("""Un ejemplo ilustrativo de la complejidad es la venta de productos, que no solo se destina a clientes finales, sino también a otros laboratorios dentro del grupo. Para evitar duplicación de ventas, se debe restar estos importes. Además de esta particularidad, existen numerosos casos que requieren una transformación de los datos, lo que impide que el informe se genere directamente desde el CRM.
 """)
-    st.subheader("1.2 ¿Cómo automatizar este proceso?")
+    st.subheader(":blue[¿Cómo automatizar este proceso?]")
     st.write("Para que el script funcione y genere las ventas mensuales por laboratorio, solo es necesario proporcionar las fechas de inicio y final para extraer la información del CRM. El script se encargará de procesar los datos y calcular las ventas de manera automática, lo que simplificará en gran medida la generación de informes.")
     st.write("")
-    st.subheader("1.3 Librerías utilizadas")
+    st.subheader(":blue[Librerías utilizadas]")
 
     st.write("""Para poder automatizar este informe, he utilizado las siguientes librerías:
 
@@ -61,14 +61,14 @@ Finalmente, descargo el fichero.
 A continuación, podéis ver un video donde se puede ver el proceso automatizado:
 """)
     
-    st.video("https://www.youtube.com/watch?v=3EREhkUDS0c")
+    st.video("https://www.youtube.com/watch?v=iPIPH-fp9_s")
 
 
 
 with st.container():
     st.write("---")
-    st.header(":blue[**Automatización 2**]", divider='rainbow')
-    st.subheader("**Carga masiva de facturas de venta SAP**")
+    st.header(":gray[**Automatización 2**]", divider='red')
+    st.subheader(":blue[**Carga masiva de facturas de venta SAP**]")
     st.write(
             """
             Dado mi rol en el departamento financiero, tuve la oportunidad de identificar procesos que podían ser automatizados mediante Python y sus librerías. Uno de estos procesos críticos era la automatización de la carga masiva de facturas en SAP Business One. Esta tarea requería la preparación de un archivo Excel siguiendo un formato específico, en el cual era necesario detallar línea por línea cada factura que debía ser contabilizada.
@@ -82,7 +82,7 @@ Fue entonces cuandos surgió la idea de desarrollar un programa que funcionara c
 
     
         )
-    st.subheader('Librerías utilizadas')
+    st.subheader(':blue[Librerías utilizadas]')
     st.write("""
 
 En el proceso de automatizar la carga de facturas en SAP Business One, he usado las siguientes librerías:
@@ -123,8 +123,8 @@ Como se ha podido observar en el video, el programa transforma el formato de man
 
 with st.container():
     st.write("---")
-    st.header(":blue[**Automatización 3**]", divider='rainbow')
-    st.subheader("**Proceso automático de introducción de datos en el CRM**")
+    st.header(":gray[**Automatización 3**]", divider='red')
+    st.subheader(":blue[**Proceso automático de introducción de datos en el CRM**]")
     st.write(
             """
             Como mencioné al principio del artículo, la introducción manual de datos en el CRM era la norma.
